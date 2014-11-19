@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+	<configSections>
+		<sectionGroup name="elmah" xdt:Transform="Insert">
+			<section name="security" requirePermission="false" type="Elmah.SecuritySectionHandler, Elmah" />
+			<section name="errorLog" requirePermission="false" type="Elmah.ErrorLogSectionHandler, Elmah" />
+			<section name="errorMail" requirePermission="false" type="Elmah.ErrorMailSectionHandler, Elmah" />
+			<section name="errorFilter" requirePermission="false" type="Elmah.ErrorFilterSectionHandler, Elmah" />
+		</sectionGroup>
+	</configSections>
+	<system.web>
+		<authentication mode="Forms" xdt:Transform="Replace">
+			<forms loginUrl="/N2/Login.aspx">
+				<credentials passwordFormat="SHA1">
+					<!-- WARNING: Change admin password manually or using the installer at /n2/installation/begin/. -->
+					<user name="admin" password="fa9beb99e4029ad5a6615399e7bbae21356086b3" />
+				</credentials>
+			</forms>
+		</authentication>
+		<customErrors mode="Off" xdt:Transform="Insert" />
+	</system.web>
+	<system.webServer>
+		<modules runAllManagedModulesForAllRequests="true">
+			<add name="ErrorLog" type="Elmah.ErrorLogModule, Elmah" preCondition="managedHandler" xdt:Transform="Insert" />
+			<add name="ErrorMail" type="Elmah.ErrorMailModule, Elmah" preCondition="managedHandler" xdt:Transform="Insert" />
+			<add name="ErrorFilter" type="Elmah.ErrorFilterModule, Elmah" preCondition="managedHandler" xdt:Transform="Insert" />
+		</modules>
+		<handlers xdt:Transform="Insert">
+			<add name="Elmah" verb="POST,GET,HEAD" path="n2/elmah.axd" type="Elmah.ErrorLogPageFactory, Elmah" />
+		</handlers>
+		<httpErrors errorMode="Custom" existingResponse="Replace" xdt:Transform="Insert">
+			<clear/>
+			<error statusCode="404" path="/Error/Error404" responseMode="ExecuteURL" />
+			<error statusCode="500" path="Error500.html" />
+		</httpErrors>
+	</system.webServer>
+	<n2 xmlns="http://n2cms.com/schemas/configuration/v3">
+		<edit>
+			<images resizeUploadedImages="false" xdt:Transform="Replace">
+				<sizes>
+					<clear />
+				</sizes>
+			</images>
+		</edit>
+	</n2>
+	<connectionStrings xdt:Transform="Replace">
+		<add name="N2CMS" connectionString="Server=.\SQLEXPRESS;Database=$rootnamespace$;Integrated Security=SSPI" providerName="System.Data.SqlClient" />
+		<!--<add name="N2CMS" connectionString="Server=remote_server;Database=$rootnamespace$;User Id=username;Password=password;Network Library=DBMSSOCN;" providerName="System.Data.SqlClient" />-->
+	</connectionStrings>
+	<elmah xdt:Transform="Insert">
+		<errorLog type="Elmah.XmlFileErrorLog, Elmah" logPath="~/App_Data" />
+		<security allowRemoteAccess="yes" />
+	</elmah>
+</configuration>

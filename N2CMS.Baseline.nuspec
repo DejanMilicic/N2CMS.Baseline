@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>N2CMS.Baseline</id>
+        <version>0.0.5</version>
+        <title>N2CMS.Baseline</title>
+        <authors>Dejan Milicic</authors>
+        <owners>Dejan Milicic</owners>
+        <projectUrl>https://github.com/DejanMilicic/N2CMS.Baseline</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Simple baseline for starting new N2CMS project. Install on empty MVC project</description>
+        <dependencies>
+            <dependency id="N2CMS" version="2.6.2.2" />
+            <dependency id="N2CMS.Mvc" version="2.6.2.2" />
+            <dependency id="elmah.corelibrary" version="1.2.2" />
+            <dependency id="SquishIt" version="0.9.5.1" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Content\App_Start\RouteConfig.cs.pp" target="Content\App_Start\RouteConfig.cs.pp" />
+        <file src="Content\Content\CSS\site.css" target="Content\Content\CSS\site.css" />
+        <file src="Content\Content\JS\main.js" target="Content\Content\JS\main.js" />
+        <file src="content\Controllers\Error404PageController.cs.pp" target="Content\Controllers\Error404PageController.cs.pp" />
+        <file src="Content\Controllers\StartPageController.cs.pp" target="Content\Controllers\StartPageController.cs.pp" />
+        <file src="content\Models\Error404Page.cs.pp" target="Content\Models\Error404Page.cs.pp" />
+        <file src="Content\Models\LanguageIntersection.cs.pp" target="Content\Models\LanguageIntersection.cs.pp" />
+        <file src="Content\Models\StartPage.cs.pp" target="Content\Models\StartPage.cs.pp" />
+        <file src="content\N2Baseline\Controllers\ErrorController.cs.pp" target="Content\N2Baseline\Controllers\ErrorController.cs.pp" />
+        <file src="content\N2Baseline\Interfaces\IPage404.cs.pp" target="Content\N2Baseline\Interfaces\IPage404.cs.pp" />
+        <file src="Content\N2Baseline\Defaults.cs.pp" target="Content\N2Baseline\Defaults.cs.pp" />
+        <file src="content\N2Baseline\Fetch.cs.pp" target="Content\N2Baseline\Fetch.cs.pp" />
+        <file src="Content\N2Baseline\PageModelBase.cs.pp" target="Content\N2Baseline\PageModelBase.cs.pp" />
+        <file src="content\Views\Error404Page\Index.cshtml.pp" target="Content\Views\Error404Page\Index.cshtml.pp" />
+        <file src="Content\Views\Shared\LayoutPartials\_._" target="Content\Views\Shared\LayoutPartials\_._" />
+        <file src="Content\Views\Shared\_Layout.cshtml" target="Content\Views\Shared\_Layout.cshtml" />
+        <file src="Content\Views\StartPage\Index.cshtml.pp" target="Content\Views\StartPage\Index.cshtml.pp" />
+        <file src="Content\Views\web.config.pp" target="Content\Views\web.config.pp" />
+        <file src="Content\Views\_ViewStart.cshtml" target="Content\Views\_ViewStart.cshtml" />
+        <file src="content\Error500.html.pp" target="Content\Error500.html.pp" />
+        <file src="Content\Global.asax.cs.pp" target="Content\Global.asax.cs.pp" />
+        <file src="Content\Global.asax.pp" target="Content\Global.asax.pp" />
+        <file src="Content\Web.config.install.xdt" target="Content\Web.config.install.xdt" />
+        <file src="readme.txt" target="readme.txt" />
+    </files>
+</package>

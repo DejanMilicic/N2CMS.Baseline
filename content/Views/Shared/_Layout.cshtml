@@ -1,0 +1,19 @@
+﻿<html>
+<head>
+	<title></title>
+	@Html.Raw(
+		Bundle.Css()
+		.Add("~/Content/CSS/site.css")
+		.Render("~/Content/CSS/combined_#.css")
+	)
+</head>
+<body>
+	@RenderBody()
+
+	@Html.Raw(
+		Bundle.JavaScript()
+		.Add("~/Content/JS/main.js")
+		.Render("~/Content/JS/combined_#.js")
+	)
+</body>
+</html>
