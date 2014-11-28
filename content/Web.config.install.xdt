@@ -34,6 +34,10 @@
 			<error statusCode="404" path="/Error/Error404" responseMode="ExecuteURL" />
 			<error statusCode="500" path="Error500.html" />
 		</httpErrors>
+		<staticContent>
+			<remove fileExtension=".woff" />
+			<mimeMap fileExtension=".woff" mimeType="application/font-woff" />
+		</staticContent>		
 	</system.webServer>
 	<n2 xmlns="http://n2cms.com/schemas/configuration/v3">
 		<edit>
