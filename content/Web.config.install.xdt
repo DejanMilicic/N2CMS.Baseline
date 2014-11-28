@@ -18,6 +18,7 @@
 			</forms>
 		</authentication>
 		<customErrors mode="Off" xdt:Transform="Insert" />
+		<httpRuntime enableVersionHeader="false" maxRequestLength="2097151" executionTimeout="900000" xdt:Transform="SetAttributes" />
 	</system.web>
 	<system.webServer>
 		<modules runAllManagedModulesForAllRequests="true">
