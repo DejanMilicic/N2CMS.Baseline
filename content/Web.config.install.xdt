@@ -39,6 +39,13 @@
 			<mimeMap fileExtension=".woff" mimeType="application/font-woff" />
 		</staticContent>		
 	</system.webServer>
+	<system.net xdt:Transform="Insert">
+		<mailSettings>
+			<smtp deliveryMethod="SpecifiedPickupDirectory">
+				<specifiedPickupDirectory pickupDirectoryLocation="C:\temp" />
+			</smtp>
+		</mailSettings>
+	</system.net>	
 	<n2 xmlns="http://n2cms.com/schemas/configuration/v3">
 		<edit>
 			<images resizeUploadedImages="false" xdt:Transform="Replace">

@@ -40,6 +40,7 @@
         <file src="Content\Global.asax.cs.pp" target="Content\Global.asax.cs.pp" />
         <file src="Content\Global.asax.pp" target="Content\Global.asax.pp" />
         <file src="Content\Web.config.install.xdt" target="Content\Web.config.install.xdt" />
+        <file src="content\Web.Release.config.transform" target="Content\Web.Release.config.transform" />
         <file src="readme.txt" target="readme.txt" />
     </files>
 </package>
