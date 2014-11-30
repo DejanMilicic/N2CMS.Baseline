@@ -1,4 +1,15 @@
 
+0.1.0
+=====
+Features
+----
+* Nuget dependecies specification changed so that last version of each is used
+* Mail settings introduced, different one for local developments and for release configuration
+* httpruntime maximum file upload size and execution timeout
+* WOFF mime type added
+* Abstract base controller for all N2CMS pagetype controllers
+* Refactoring folder structure for views
+
 0.0.5
 =====
 Features
