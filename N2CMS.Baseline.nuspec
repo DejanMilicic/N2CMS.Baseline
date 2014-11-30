@@ -9,6 +9,7 @@
         <projectUrl>https://github.com/DejanMilicic/N2CMS.Baseline</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Simple baseline for starting new N2CMS project. Install on empty MVC project</description>
+        <tags>n2 n2cms mvc</tags>
         <dependencies>
             <dependency id="N2CMS" />
             <dependency id="N2CMS.Mvc" />
