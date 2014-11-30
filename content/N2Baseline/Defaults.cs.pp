@@ -8,7 +8,7 @@ namespace $rootnamespace$.N2Baseline
 	using N2;
 	using N2.Definitions;
 
-	using $rootnamespace$.Models;
+	using $rootnamespace$.Models.N2Pages;
 
 	public static class Defaults
 	{

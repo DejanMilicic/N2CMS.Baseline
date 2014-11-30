@@ -1,5 +1,5 @@
 ﻿
-namespace $rootnamespace$.Controllers
+namespace $rootnamespace$.N2Baseline.Controllers
 {
 	using System.Linq;
 	using System.Web.Mvc;
@@ -7,7 +7,7 @@ namespace $rootnamespace$.Controllers
 	using N2;
 	using N2.Web.Mvc;
 
-	using $rootnamespace$.Models;
+	using $rootnamespace$.Models.N2Pages;
 	using $rootnamespace$.N2Baseline;
 	using $rootnamespace$.N2Baseline.Interfaces;
 
@@ -16,8 +16,8 @@ namespace $rootnamespace$.Controllers
 		// GET: Error
 		public ActionResult Error404()
 		{
-			Response.StatusCode = 404;
-			Response.StatusDescription = "File not found";
+			this.Response.StatusCode = 404;
+			this.Response.StatusDescription = "File not found";
 
 			ContentItem closestStartPage = Fetch.FindStartPageOfPath(this.Request.RawUrl);
 
@@ -30,11 +30,11 @@ namespace $rootnamespace$.Controllers
 
 			if (page404 != null)
 			{
-				return ViewPage(page404 as N2.ContentItem);
+				return this.ViewPage(page404 as N2.ContentItem);
 			}
 			else
 			{
-				return Content("Error 404");
+				return this.Content("Error 404");
 			}
 		}
 	}

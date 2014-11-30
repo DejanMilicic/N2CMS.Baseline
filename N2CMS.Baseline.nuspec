@@ -20,20 +20,23 @@
         <file src="Content\App_Start\RouteConfig.cs.pp" target="Content\App_Start\RouteConfig.cs.pp" />
         <file src="Content\Content\CSS\site.css" target="Content\Content\CSS\site.css" />
         <file src="Content\Content\JS\main.js" target="Content\Content\JS\main.js" />
-        <file src="content\Controllers\Error404PageController.cs.pp" target="Content\Controllers\Error404PageController.cs.pp" />
-        <file src="Content\Controllers\StartPageController.cs.pp" target="Content\Controllers\StartPageController.cs.pp" />
-        <file src="content\Models\Error404Page.cs.pp" target="Content\Models\Error404Page.cs.pp" />
-        <file src="Content\Models\LanguageIntersection.cs.pp" target="Content\Models\LanguageIntersection.cs.pp" />
-        <file src="Content\Models\StartPage.cs.pp" target="Content\Models\StartPage.cs.pp" />
+        <file src="content\Controllers\N2Pages\Error404PageController.cs.pp" target="Content\Controllers\N2Pages\Error404PageController.cs.pp" />
+        <file src="content\Controllers\N2Pages\StartPageController.cs.pp" target="Content\Controllers\N2Pages\StartPageController.cs.pp" />
+        <file src="content\Controllers\N2Parts\.gitkeep" target="Content\Controllers\N2Parts\.gitkeep" />
+        <file src="content\Models\N2Pages\Error404Page.cs.pp" target="Content\Models\N2Pages\Error404Page.cs.pp" />
+        <file src="content\Models\N2Pages\LanguageIntersection.cs.pp" target="Content\Models\N2Pages\LanguageIntersection.cs.pp" />
+        <file src="content\Models\N2Pages\StartPage.cs.pp" target="Content\Models\N2Pages\StartPage.cs.pp" />
+        <file src="content\Models\N2Parts\.gitkeep" target="Content\Models\N2Parts\.gitkeep" />
+        <file src="content\N2Baseline\Controllers\BaseN2Controller.cs.pp" target="Content\N2Baseline\Controllers\BaseN2Controller.cs.pp" />
         <file src="content\N2Baseline\Controllers\ErrorController.cs.pp" target="Content\N2Baseline\Controllers\ErrorController.cs.pp" />
         <file src="content\N2Baseline\Interfaces\IPage404.cs.pp" target="Content\N2Baseline\Interfaces\IPage404.cs.pp" />
+        <file src="content\N2Baseline\Models\PageModelBase.cs.pp" target="Content\N2Baseline\Models\PageModelBase.cs.pp" />
         <file src="Content\N2Baseline\Defaults.cs.pp" target="Content\N2Baseline\Defaults.cs.pp" />
         <file src="content\N2Baseline\Fetch.cs.pp" target="Content\N2Baseline\Fetch.cs.pp" />
-        <file src="Content\N2Baseline\PageModelBase.cs.pp" target="Content\N2Baseline\PageModelBase.cs.pp" />
-        <file src="content\Views\Error404Page\Index.cshtml.pp" target="Content\Views\Error404Page\Index.cshtml.pp" />
-        <file src="Content\Views\Shared\LayoutPartials\_._" target="Content\Views\Shared\LayoutPartials\_._" />
+        <file src="content\Views\Shared\N2Pages\Error404Page.cshtml.pp" target="Content\Views\Shared\N2Pages\Error404Page.cshtml.pp" />
+        <file src="content\Views\Shared\N2Pages\StartPage.cshtml.pp" target="Content\Views\Shared\N2Pages\StartPage.cshtml.pp" />
+        <file src="content\Views\Shared\N2Parts\.gitkeep" target="Content\Views\Shared\N2Parts\.gitkeep" />
         <file src="Content\Views\Shared\_Layout.cshtml" target="Content\Views\Shared\_Layout.cshtml" />
-        <file src="Content\Views\StartPage\Index.cshtml.pp" target="Content\Views\StartPage\Index.cshtml.pp" />
         <file src="Content\Views\web.config.pp" target="Content\Views\web.config.pp" />
         <file src="Content\Views\_ViewStart.cshtml" target="Content\Views\_ViewStart.cshtml" />
         <file src="content\Error500.html.pp" target="Content\Error500.html.pp" />

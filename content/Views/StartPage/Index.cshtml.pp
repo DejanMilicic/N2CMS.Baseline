@@ -1,3 +1,0 @@
-﻿@model $rootnamespace$.Models.StartPage
-
-

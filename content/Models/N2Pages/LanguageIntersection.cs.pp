@@ -1,5 +1,5 @@
 ﻿
-namespace $rootnamespace$.Models
+namespace $rootnamespace$.Models.N2Pages
 {
 	using System.Collections.Generic;
 	using System.Linq;
@@ -13,6 +13,7 @@ namespace $rootnamespace$.Models
 	using N2.Web.UI;
 
 	using $rootnamespace$.N2Baseline;
+	using $rootnamespace$.N2Baseline.Models;
 
 	[PageDefinition(
 		Title = "Language Intersection",

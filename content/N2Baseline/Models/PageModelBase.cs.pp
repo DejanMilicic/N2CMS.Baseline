@@ -1,6 +1,6 @@
-﻿namespace $rootnamespace$.N2Baseline
+﻿
+namespace $rootnamespace$.N2Baseline.Models
 {
-	using N2;
 	using N2.Definitions;
 	using N2.Details;
 	using N2.Integrity;
@@ -15,7 +15,7 @@
 	[SidebarContainer(Defaults.Containers.Metadata, 100, HeadingText = "Metadata")]
 	[TabContainer(Defaults.Containers.Content, "Content", 1000)]
 	[RestrictParents(typeof(IPage))]
-	public abstract class PageModelBase : ContentItem, IPage
+	public abstract class PageModelBase : N2.ContentItem, IPage
 	{
 	}
 }

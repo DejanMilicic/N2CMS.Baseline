@@ -1,4 +1,5 @@
-﻿namespace $rootnamespace$.Models
+﻿
+namespace $rootnamespace$.Models.N2Pages
 {
 	using System.Collections.Generic;
 	using System.Globalization;
@@ -14,6 +15,7 @@
 	using N2.Web.UI;
 
 	using $rootnamespace$.N2Baseline;
+	using $rootnamespace$.N2Baseline.Models;
 
 	[PageDefinition(
 		Title = "Start Page",
