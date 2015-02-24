@@ -1,5 +1,5 @@
 ﻿
-namespace TestProject.N2Baseline.Controllers
+namespace $rootnamespace$.N2Baseline.Controllers
 {
 	using System.Web.Mvc;
 
