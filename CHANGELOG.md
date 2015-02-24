@@ -1,4 +1,12 @@
 
+0.1.1 - Bugfix release
+=====
+Bugs
+----
+* BaseN2Controller namespace corrected
+* Missing LanguageIntersection controller added
+* Smaller corrections on page defintions
+
 0.1.0
 =====
 Features
