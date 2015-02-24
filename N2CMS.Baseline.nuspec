@@ -22,6 +22,7 @@
         <file src="Content\Content\CSS\site.css" target="Content\Content\CSS\site.css" />
         <file src="Content\Content\JS\main.js" target="Content\Content\JS\main.js" />
         <file src="content\Controllers\N2Pages\Error404PageController.cs.pp" target="Content\Controllers\N2Pages\Error404PageController.cs.pp" />
+        <file src="content\Controllers\N2Pages\LanguageIntersectionController.cs.pp" target="Content\Controllers\N2Pages\LanguageIntersectionController.cs.pp" />
         <file src="content\Controllers\N2Pages\StartPageController.cs.pp" target="Content\Controllers\N2Pages\StartPageController.cs.pp" />
         <file src="content\Controllers\N2Parts\.gitkeep" target="Content\Controllers\N2Parts\.gitkeep" />
         <file src="content\Models\N2Pages\Error404Page.cs.pp" target="Content\Models\N2Pages\Error404Page.cs.pp" />
