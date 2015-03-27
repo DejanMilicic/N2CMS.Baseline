@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>N2CMS.Baseline</id>
-        <version>0.1.1</version>
+        <version>0.1.2</version>
         <title>N2CMS.Baseline</title>
         <authors>Dejan Milicic</authors>
         <owners>Dejan Milicic</owners>
@@ -24,11 +24,11 @@
         <file src="content\Controllers\N2Pages\Error404PageController.cs.pp" target="Content\Controllers\N2Pages\Error404PageController.cs.pp" />
         <file src="content\Controllers\N2Pages\LanguageIntersectionController.cs.pp" target="Content\Controllers\N2Pages\LanguageIntersectionController.cs.pp" />
         <file src="content\Controllers\N2Pages\StartPageController.cs.pp" target="Content\Controllers\N2Pages\StartPageController.cs.pp" />
-        <file src="content\Controllers\N2Parts\.gitkeep" target="Content\Controllers\N2Parts\.gitkeep" />
+        <file src="Content\Controllers\N2Parts\_._" target="Content\Controllers\N2Parts\_._" />
         <file src="content\Models\N2Pages\Error404Page.cs.pp" target="Content\Models\N2Pages\Error404Page.cs.pp" />
         <file src="content\Models\N2Pages\LanguageIntersection.cs.pp" target="Content\Models\N2Pages\LanguageIntersection.cs.pp" />
         <file src="content\Models\N2Pages\StartPage.cs.pp" target="Content\Models\N2Pages\StartPage.cs.pp" />
-        <file src="content\Models\N2Parts\.gitkeep" target="Content\Models\N2Parts\.gitkeep" />
+        <file src="Content\Models\N2Parts\_._" target="Content\Models\N2Parts\_._" />
         <file src="content\N2Baseline\Controllers\BaseN2Controller.cs.pp" target="Content\N2Baseline\Controllers\BaseN2Controller.cs.pp" />
         <file src="content\N2Baseline\Controllers\ErrorController.cs.pp" target="Content\N2Baseline\Controllers\ErrorController.cs.pp" />
         <file src="content\N2Baseline\Interfaces\IPage404.cs.pp" target="Content\N2Baseline\Interfaces\IPage404.cs.pp" />
@@ -37,7 +37,7 @@
         <file src="content\N2Baseline\Fetch.cs.pp" target="Content\N2Baseline\Fetch.cs.pp" />
         <file src="content\Views\Shared\N2Pages\Error404Page.cshtml.pp" target="Content\Views\Shared\N2Pages\Error404Page.cshtml.pp" />
         <file src="content\Views\Shared\N2Pages\StartPage.cshtml.pp" target="Content\Views\Shared\N2Pages\StartPage.cshtml.pp" />
-        <file src="content\Views\Shared\N2Parts\.gitkeep" target="Content\Views\Shared\N2Parts\.gitkeep" />
+        <file src="Content\Views\Shared\N2Parts\_._" target="Content\Views\Shared\N2Parts\_._" />
         <file src="Content\Views\Shared\_Layout.cshtml" target="Content\Views\Shared\_Layout.cshtml" />
         <file src="Content\Views\web.config.pp" target="Content\Views\web.config.pp" />
         <file src="Content\Views\_ViewStart.cshtml" target="Content\Views\_ViewStart.cshtml" />

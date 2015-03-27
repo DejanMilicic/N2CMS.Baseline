@@ -1,4 +1,9 @@
 
+0.1.2
+=====
+* gitkeep files excluded from nuget package
+
+
 0.1.1 - Bugfix release
 =====
 Bugs
