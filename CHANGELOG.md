@@ -1,8 +1,13 @@
 
+0.1.3
+=====
+Bugs
+----
+* Proper nuspec reference to versions of dependent packages
+
 0.1.2
 =====
 * gitkeep files excluded from nuget package
-
 
 0.1.1 - Bugfix release
 =====
