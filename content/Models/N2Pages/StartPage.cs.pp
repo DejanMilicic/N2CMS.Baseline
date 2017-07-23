@@ -32,6 +32,32 @@ namespace $rootnamespace$.Models.N2Pages
 
 		#region ILanguage Members
 
+		public override string IconClass
+		{
+			get
+			{
+				if (String.IsNullOrWhiteSpace(this.FlagClass))
+				{
+					return base.IconUrl;
+				}
+				else
+				{
+					return this.FlagClass;
+				}
+			}
+		}
+		public string FlagClass
+		{
+			get
+			{
+				if (string.IsNullOrEmpty(LanguageCode))
+					return "";
+
+				string[] parts = LanguageCode.Split('-');
+				return N2.Web.Url.ResolveTokens(string.Format("{0} sprite", parts[parts.Length - 1].ToLower()));
+			}
+		}
+
 		public string FlagUrl
 		{
 			get
