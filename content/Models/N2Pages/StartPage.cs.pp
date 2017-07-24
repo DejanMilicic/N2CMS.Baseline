@@ -1,6 +1,7 @@
 ﻿
 namespace $rootnamespace$.Models.N2Pages
 {
+	using System;
 	using System.Globalization;
 	using N2;
 	using N2.Definitions;

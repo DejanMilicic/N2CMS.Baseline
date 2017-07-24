@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>N2CMS.Baseline</id>
-        <version>0.1.4</version>
+        <version>0.1.5</version>
         <title>N2CMS.Baseline</title>
         <authors>Dejan Milicic</authors>
         <owners>Dejan Milicic</owners>
@@ -29,12 +29,7 @@
         <file src="content\Models\N2Pages\LanguageIntersection.cs.pp" target="Content\Models\N2Pages\LanguageIntersection.cs.pp" />
         <file src="content\Models\N2Pages\StartPage.cs.pp" target="Content\Models\N2Pages\StartPage.cs.pp" />
         <file src="Content\Models\N2Parts\**\*.*" target="Content\Models\N2Parts" />
-        <file src="content\N2Baseline\Controllers\BaseN2Controller.cs.pp" target="Content\N2Baseline\Controllers\BaseN2Controller.cs.pp" />
-        <file src="content\N2Baseline\Controllers\ErrorController.cs.pp" target="Content\N2Baseline\Controllers\ErrorController.cs.pp" />
-        <file src="content\N2Baseline\Interfaces\IPage404.cs.pp" target="Content\N2Baseline\Interfaces\IPage404.cs.pp" />
-        <file src="content\N2Baseline\Models\PageModelBase.cs.pp" target="Content\N2Baseline\Models\PageModelBase.cs.pp" />
-        <file src="Content\N2Baseline\Defaults.cs.pp" target="Content\N2Baseline\Defaults.cs.pp" />
-        <file src="content\N2Baseline\Fetch.cs.pp" target="Content\N2Baseline\Fetch.cs.pp" />
+        <file src="content\N2Baseline\**\*.*" target="Content\N2Baseline" />
         <file src="content\Views\Shared\N2Pages\Error404Page.cshtml.pp" target="Content\Views\Shared\N2Pages\Error404Page.cshtml.pp" />
         <file src="content\Views\Shared\N2Pages\StartPage.cshtml.pp" target="Content\Views\Shared\N2Pages\StartPage.cshtml.pp" />
         <file src="Content\Views\Shared\N2Parts\**\*.*" target="Content\Views\Shared\N2Parts" />
